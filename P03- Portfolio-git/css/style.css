@@ -5,14 +5,52 @@
 
 body {
     margin: 1rem;
-    /* font-family: "Helvetica Neue" , sans-serif; */
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    font-family: "Helvetica Neue" , sans-serif;
+    /* font-family: 'Raleway', sans-serif;
+    font-weight: 300; */
+}
+
+h1 {
+  font-family: 'DM Serif Text', serif;
 }
 
 h2,h3,h4,h5 {
+  /* font-family: 'Raleway', sans-serif;
+  font-weight: 500; */
+  font-family: 'DM Serif Text', serif;
+  letter-spacing: -0.5px;
 
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
+}
 
+.color1, .color2, .color3, .color4, .color5 {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 1em;
+  max-width: 500px;
+}
+.color1 {
+  background-color: black;
+  color: white;
+}
+
+.color2 {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+}
+
+.color3 {
+  background-color: #052E22;
+  color: white;
+}
+
+.color4 {
+  /* background-color: #589659; */
+  background-color:#70A37F;
+  color: white;
+}
+
+.color5 {
+  background-color: #084793;
+  color: white;
 }
