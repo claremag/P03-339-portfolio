@@ -1,8 +1,8 @@
 /*
-  STYLE GUIDE STYLING 
-  Default styling for the style guide 
+  STYLE GUIDE STYLING
+  Default styling for the style guide
 */
-body {
+/* body {
   font-family: sans-serif;
   padding: 2rem;
 }
@@ -24,15 +24,15 @@ section p {
 section code {
   background-color: #EEE;
   padding: 0.5em 0.75em;
-}
+} */
 
 
-/* 
+/*
   INTERACTIVE ELEMENTS -------------------
 */
 
 /* Styling for the navigation button */
-.button-nav {
+/* .button-nav {
   display: inline-block;
   padding: 0.5em 0.75em;
   color: #FFF;
@@ -45,17 +45,17 @@ section code {
 
 .button-nav:hover, .button-nav:focus {
   background-color: #999;
-}
+} */
 
 
 
-/* 
+/*
   TEXT ELEMENTS -------------------
 */
 
 
 
 
-/* 
+/*
   COMBINED ELEMENTS -------------------
 */
