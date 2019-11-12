@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-Mono.woff2') format('woff2'),
+        url('MaisonNeue-Mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue TRIAL';
+    src: url('MaisonNeueTRIAL-Light.woff2') format('woff2'),
+        url('MaisonNeueTRIAL-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue Extended TRIAL';
+    src: url('MaisonNeueExtendedTRIAL-Thin.woff2') format('woff2'),
+        url('MaisonNeueExtendedTRIAL-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue Extended TRIAL Demi';
+    src: url('MaisonNeueExtendedTRIAL-Demi.woff2') format('woff2'),
+        url('MaisonNeueExtendedTRIAL-Demi.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-Demi.woff2') format('woff2'),
+        url('MaisonNeue-Demi.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue TRIAL';
+    src: url('MaisonNeueTRIAL-Light.woff2') format('woff2'),
+        url('MaisonNeueTRIAL-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue Extd TRIAL';
+    src: url('MaisonNeueExtendedTRIAL-Medium.woff2') format('woff2'),
+        url('MaisonNeueExtendedTRIAL-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue Extd TRIAL';
+    src: url('MaisonNeueExtendedTRIAL-Light.woff2') format('woff2'),
+        url('MaisonNeueExtendedTRIAL-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue TRIAL';
+    src: url('MaisonNeueTRIAL-Light.woff2') format('woff2'),
+        url('MaisonNeueTRIAL-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue Extended';
+    src: url('MaisonNeueExtended-Bold.woff2') format('woff2'),
+        url('MaisonNeueExtended-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-Book.woff2') format('woff2'),
+        url('MaisonNeue-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue TRIAL';
+    src: url('MaisonNeueTRIAL-Light.woff2') format('woff2'),
+        url('MaisonNeueTRIAL-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-Bold.woff2') format('woff2'),
+        url('MaisonNeue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue Extended TRIAL Book';
+    src: url('MaisonNeueExtendedTRIAL-Book.woff2') format('woff2'),
+        url('MaisonNeueExtendedTRIAL-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue TRIAL';
+    src: url('MaisonNeueTRIAL-Medium.woff2') format('woff2'),
+        url('MaisonNeueTRIAL-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
