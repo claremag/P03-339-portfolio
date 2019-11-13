@@ -185,8 +185,11 @@ section h4 , section h5 {
 .work-link {
   text-decoration: none;
   font-family: 'FreightDisp Pro' , serif;
+  /* font-family: 'Maison Neue Extended TRIAL Book';
+  font-weight: normal;
+  font-style: normal; */
   font-size: 5rem;
-  font-weight: bold;
+  /* font-weight: bold; */
   letter-spacing: -1.5px;
 }
 
