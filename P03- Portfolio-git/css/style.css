@@ -182,40 +182,117 @@ section h4 , section h5 {
 
 /* ADDITIONAL WEBSITE STYLING */
 
-.work-link {
+.cm, .nav-link , .work-link {
   text-decoration: none;
-  font-family: 'FreightDisp Pro' , serif;
-  /* font-family: 'Maison Neue Extended TRIAL Book';
-  font-weight: normal;
+  /* font-family: 'FreightDisp Pro' , serif; */
+  font-family: 'Druk Wide';
+  font-weight: 500;
+  text-transform: uppercase;
+  color: black;
+  /* font-family: 'Maison Neue';
+  font-weight: 600;
   font-style: normal; */
-  font-size: 5rem;
   /* font-weight: bold; */
-  letter-spacing: -1.5px;
+  /* letter-spacing: -0.5px; */
+}
+
+/* .work-link {
+  color: transparent;
+  -webkit-text-stroke: 3px black;
+} */
+
+.nav-link {
+  font-size: 1rem;
+}
+
+.work-link {
+  font-size: 5rem;
+}
+
+.nav-link:hover , .work-link:hover {
+  color: black;
+  letter-spacing: -0.5px;
+  font-family: 'Ogg' , serif;
+    text-transform: lowercase;
+  font-style: italic;
+  font-weight:normal;
+}
+
+.nav-link:hover {
+  font-size: 1.3rem;
 }
 
 .work-link:hover {
 
-  letter-spacing: -0.5px;
-  font-family: 'Ogg' , serif;
-  font-style: italic;
-  font-size: 4rem;
-  font-weight:normal;
-
 }
 
-.footer-div {
-  /* position: -webkit-sticky;
-  position: sticky; */
+nav {
   display: flex;
-  margin-top: 20%;
 }
 
-.f-item {
-  flex-direction: column;
+.mp-col {
   flex: 1;
+}
+
+.mp-col2 {
+  text-align: right;
+  display: flex;
+}
+
+.m-item2 {
+  flex: 1;
+}
+
+.home-content {
+  display: flex;
+}
+
+.h-row {
+  flex: 1;
+  height: 100%;
+  flex-direction: column;
+  margin-top:25%;
+  margin-bottom:25%;
+  /* display: -webkit-box;
+ display: -webkit-flex; */
+ /* margin-top: 50%;
+ margin-bottom: 50%; */
+}
+
+.hr1 {
   text-align: left;
 }
 
-.f-item2 {
+.hr2 {
   text-align: right;
 }
+
+.large {
+  font-family: 'Maison Neue Extended';
+  /* font-family: 'Maison Neue Extd TRIAL'; */
+  /* font-family: 'Maison Neue Extd TRIAL'; */
+
+  font-size: 4rem;
+
+}
+
+.about-intro {
+  padding-top: 2rem;
+}
+
+/* .footer-div { */
+  /* position: -webkit-sticky;
+  position: sticky; */
+  /* display: flex;
+  margin-top: 20%; */
+/* } */
+
+/* .f-item {
+  flex-direction: column;
+  flex: 1;
+  text-align: left;
+} */
+
+/* .f-item2 {
+  text-align: right;
+} */

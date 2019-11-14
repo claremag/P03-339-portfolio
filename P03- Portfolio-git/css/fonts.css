@@ -45,7 +45,7 @@ font-family: 'Marcellus', serif;
  }
 
  @font-face {
-     font-family: 'Maison Neue';
+     font-family: 'Maison Neue Demi';
      src: url('MaisonNeue-Demi.woff2') format('woff2'),
          url('MaisonNeue-Demi.woff') format('woff');
      font-weight: 600;
@@ -139,6 +139,13 @@ font-family: 'Marcellus', serif;
 } */
 
 @font-face {
+  src: url(fonts/Ogg/Ogg-Italic.woff);
+  font-family: 'Ogg', serif;
+  font-style: italic;
+}
+
+
+@font-face {
   src: url(fonts/Freight-Display/FreightDispProBook-Regular.woff);
   font-family: 'FreightDisp Pro Book' , serif;
 }
@@ -152,16 +159,16 @@ font-family: 'Marcellus', serif;
 
 @font-face {
     font-family: 'Ogg';
-    src: url('Ogg-Roman.woff2') format('woff2'),
-        url('Ogg-Roman.woff') format('woff');
+    src: url(fonts/Ogg/Ogg-Roman.woff2) format('woff2'),
+        url(fonts/Ogg/Ogg-Roman.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Ogg';
-    src: url('Ogg-Italic.woff2') format('woff2'),
-        url('Ogg-Italic.woff') format('woff');
+    src: url(fonts/Ogg/Ogg-Italic.woff2) format('woff2'),
+        url(fonts/Ogg/Ogg-Italic.woff) format('woff');
     font-weight: normal;
     font-style: italic;
 }
