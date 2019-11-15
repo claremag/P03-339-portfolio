@@ -1,5 +1,6 @@
 * {
-  background: white;
+  /* background: #FFF1D0; */
+  background: #FFFBF2;
   box-sizing: border-box;
 }
 
@@ -17,6 +18,8 @@ body {
 
 
 .intext-link{
+  background-color: transparent;
+
   text-decoration: none;
   color: black;
   /* color: #052E22; */
@@ -99,8 +102,10 @@ h1,h2,h3,h4,h5 {
   /* font-family: 'DM Serif Text', serif; */
   /* font-family: 'Jomolhari', serif; */
   /* font-family: 'Freight-Display-Book' , serif; */
-  font-family: 'FreightDisp Pro' , serif;
-  letter-spacing: -1px;
+  /* font-family: 'FreightDisp Pro' , serif; */
+  font-family: 'Druk Wide';
+  font-weight: 500;
+  text-transform: uppercase;
   /* text-transform: uppercase; */
   /* color: #052E22; */
   color: black;
@@ -142,12 +147,13 @@ section h4 , section h5 {
   text-decoration: underline;
 } */
 
-.color1, .color2, .color3, .color4, .color5 {
+.color1, .color2, .color3, .color4 , .color5{
   font-size: 1em;
   text-align: center;
   padding: 0.7em;
   max-width: 300px;
 }
+
 .color1 {
   background-color: black;
   color: white;
@@ -164,16 +170,27 @@ section h4 , section h5 {
   color: white;
 }
 
+.c3 {
+  color: #052E22;
+}
+
 .color4 {
   /* background-color: #589659; */
   background-color:#70A37F;
   color: white;
 }
 
+
 .color5 {
   background-color: #084793;
   color: white;
 }
+
+.c5 {
+  color: #F1CD1E;
+}
+
+
 
 .project2-final , .project-img {
   max-width: 300px;
@@ -189,6 +206,8 @@ section h4 , section h5 {
   font-weight: 500;
   text-transform: uppercase;
   color: black;
+  background-color: transparent;
+
   /* font-family: 'Maison Neue';
   font-weight: 600;
   font-style: normal; */
@@ -206,8 +225,10 @@ section h4 , section h5 {
 }
 
 .work-link {
-  font-size: 5rem;
+  background-color: transparent;
+  font-size: 3rem;
 }
+
 
 .nav-link:hover , .work-link:hover {
   color: black;
@@ -245,54 +266,102 @@ nav {
 
 .home-content {
   display: flex;
+  text-align: center;
+  /* justify-content: space-evenly; */
 }
 
 .h-row {
   flex: 1;
-  height: 100%;
-  flex-direction: column;
-  margin-top:25%;
-  margin-bottom:25%;
+  /* height: 100%;
+  flex-direction: column; */
+  /* margin-top:25%;
+  margin-bottom:25%; */
   /* display: -webkit-box;
  display: -webkit-flex; */
- /* margin-top: 50%;
- margin-bottom: 50%; */
+ margin-top: 15rem;
+ margin-bottom: 15rem;
 }
 
-.hr1 {
+.work-title {
+  background-color: transparent;
+  position: absolute;
+  margin-left: 1rem;;
+  margin-top: -2%;
+  /* top: 0%; */
+}
+
+
+
+/* .hr1 {
   text-align: left;
 }
 
 .hr2 {
   text-align: right;
-}
+} */
 
+.mockup {
+  width: 300px;
+}
 .large {
   font-family: 'Maison Neue Extended';
+  background-color: transparent;
   /* font-family: 'Maison Neue Extd TRIAL'; */
   /* font-family: 'Maison Neue Extd TRIAL'; */
-
-  font-size: 4rem;
+  font-size: 3rem;
 
 }
 
 .about-intro {
   padding-top: 2rem;
+  background-color: transparent;
 }
 
-/* .footer-div { */
-  /* position: -webkit-sticky;
-  position: sticky; */
-  /* display: flex;
-  margin-top: 20%; */
-/* } */
+.clare-img {
+  /* opacity: 0; */
+  width: 50%;
+  float: left;
+  margin-top: -10rem;
+  /* position: absolute; */
+}
 
-/* .f-item {
-  flex-direction: column;
+.clare-img:hover {
+  opacity: 100%;
+}
+
+.text2 {
+
+  padding-left: -2rem;
+}
+
+.mockup{
+  padding-bottom: -10rem;
+}
+
+.landing-img {
+  margin-top: 2rem;
+}
+
+
+/* .about-info {
+  max-width: 900px;
+  margin: 0 auto;
+} */
+
+.portion {
+  display: flex;
   flex: 1;
-  text-align: left;
-} */
+}
 
-/* .f-item2 {
-  text-align: right;
-} */
+.p2 {
+  flex: 1;
+  line-height: 1.5rem;
+}
+
+.p2 p {
+font-size: 0.9rem;
+}
+
+.bg {
+  max-width: 100%;
+}
