@@ -1,0 +1,42 @@
+@media (min-width: 320px) {
+
+  header {
+    margin-bottom: 25%;
+  }
+
+  .home-content {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+
+}
+
+
+@media (min-width: 700px) {
+
+  header {
+    margin-bottom: 15%;
+  }
+
+  .work-head {
+    margin-bottom: 10%;
+  }
+
+  .home-content {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+}
+
+
+@media(min-width: 1000px) {
+  .work-head {
+    margin-bottom: 10%;
+  }
+}
