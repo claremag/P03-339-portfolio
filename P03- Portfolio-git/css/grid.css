@@ -10,6 +10,14 @@
     margin: 0 auto;
 }
 
+  .wn2 {
+    margin-right: 0;
+
+  }
+  .wn1 {
+    margin-left:0;
+  }
+
 
 
 }
@@ -32,11 +40,27 @@
 
 }
 
+.wn2 {
+  margin-right: 2.5rem;
+
+}
+.wn1 {
+  margin-left:2.5rem;
+}
+
 }
 
 
 @media(min-width: 1000px) {
   .work-head {
     margin-bottom: 10%;
+  }
+
+  .wn2 {
+    margin-right: 2.5rem;
+
+  }
+  .wn1 {
+    margin-left:2.5rem;
   }
 }

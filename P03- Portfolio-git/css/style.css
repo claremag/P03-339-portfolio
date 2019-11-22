@@ -1,19 +1,11 @@
 * {
-  /* background: #FFF1D0; */
-  background: #f0ede1;
   box-sizing: border-box;
 }
 
 body {
+  background: #f0ede1;
     margin: 2.5rem;
     font-family: 'HK Grotesk';
-
-    /* font-family: "Helvetica" , sans-serif; */
-    /* font-family: 'Heebo', sans-serif; */
-    /* font-family: 'Didact Gothic', sans-serif; */
-    /* font-family: 'DM Sans', sans-serif; */
-    /* font-family: 'Darker Grotesque', sans-serif; */
-    /* font-family: 'Roboto', sans-serif; */
     font-weight: 300;
 }
 
@@ -96,17 +88,10 @@ code {
 
 
 h1,h2,h3,h4 {
-  /* font-family: 'Raleway', sans-serif;
-  font-weight: 500; */
-  /* font-family: 'DM Serif Text', serif; */
-  /* font-family: 'Jomolhari', serif; */
-  /* font-family: 'Freight-Display-Book' , serif; */
-  /* font-family: 'FreightDisp Pro' , serif; */
+
   font-family: 'Recoleta';
   font-weight: 600;
   text-transform: uppercase;
-  /* text-transform: uppercase; */
-  /* color: #052E22; */
   color: black;
 }
 
@@ -194,11 +179,14 @@ footer {
   margin-top: 15%;
 }
 
+
 .m-item1 {
   background-color: transparent;
   position: fixed;
   left: 2.5rem;
   top: 2.5rem;
+  z-index: 16;
+
   /* z-index: 15; */
 }
 
@@ -207,7 +195,6 @@ footer {
   position: fixed;
   right: 2.5rem;
   top:3.2rem;
-  z-index: 16;
 }
 .m-item3 {
 position: fixed;
@@ -237,6 +224,8 @@ bottom: 2.5rem;
   letter-spacing: 1px;
   font-size: 0.9rem;
   text-transform: uppercase;
+  z-index: 16;
+
 }
 
 .home-content {
@@ -291,10 +280,14 @@ bottom: 2.5rem;
 
 }
 
+
+
 /* SPECIFIC WORK PAGES STYLING */
 
+/* work navigation */
 .work-nav{
   display: flex;
+  /* z-index: -16; */
 }
 
 .wn h5 {
@@ -307,6 +300,133 @@ bottom: 2.5rem;
 .wn2 {
   text-align: right;
 }
+
+/* .wn1 {
+  margin-left: 2.5rem;
+} */
+
+.banner-img {
+  max-width: 100%;
+}
+
+.banner {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.work-content-2 {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.uc {
+  text-transform: uppercase;
+}
+
+ /* {
+  text-transform: uppercase;
+} */
+
+
+.a-row {
+  display: flex;
+  align-items: baseline;
+}
+
+.a-row1 ,  .a-row2 , .a-row3 {
+  text-transform: uppercase;
+}
+
+.a-row1 p ,  .a-row2 p , .a-row3 p {
+  margin-top: 0;
+}
+.a-row p {
+  font-size: 0.85em;
+}
+
+.a-row h4 {
+  text-transform: lowercase;
+  /* word-break: break-word; */
+}
+
+.a-row h5 {
+  margin:0;
+}
+
+
+.a-left {
+  flex:1;
+}
+.a-right {
+  flex:2;
+}
+
+.joc-img {
+  max-width: 100%;
+}
+
+.a-b11 {
+  align-items: flex-start
+}
+
+.joc-img {
+  max-width: 100%;
+}
+
+
+
+
+/* ABOUT STYLING */
+
+#about {
+  background-color: #c6d3b8;
+  /* background-image: url("../images/self/me1.jpg");
+  background-position: center;
+  background-size: 350px;
+  background-repeat: no-repeat; */
+}
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ac {
+  font-family: 'Recoleta';
+
+}
+
+.ac-title {
+  text-transform:lowercase;
+  font-size: 6rem;
+  color: transparent;
+  -webkit-text-stroke:1.5px black;
+  margin: 0;
+}
+
+
+.a-c {
+    max-width: 400px;
+    margin:0 auto;
+}
+
+.a-c2 {
+  /* width:400px; */
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.a-c3 {
+  margin-top: 2rem;
+  font-weight: 300;
+  font-size: 1.3rem;
+  
+  /* color:#f0ede1 */
+}
+
+
+
 
 
 
