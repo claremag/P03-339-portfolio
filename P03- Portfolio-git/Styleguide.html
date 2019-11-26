@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
 
+
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Style Guide Template</title>
 
     <link href="css/main.css" rel="stylesheet">
@@ -16,6 +18,10 @@
 
     <h1><a href="portfolio/home.html" class="intext-link2">Portfolio</a> Styleguide </h1>
 
+    <div id="links">
+    <p> ( Click 'PORTFOLIO' above for my website, <a href="https://github.com/claremag/P03-339-portfolio/tree/master/P03-%20Portfolio-git" target="_top" class="intext-link">github</a>  & <a href="#citation" target="_top" class="intext-link">citations. )</a></p>
+  </div>
+
 
 
     <nav>
@@ -23,7 +29,7 @@
     </nav>
 
     <section id="site-content">
-      <section>
+
         <h2>Site Branding - Color Scheme </h2>
 
 
@@ -34,17 +40,13 @@
         <p class="color3">#f0ede1 (off white grey)</p>
         <p class="color4">#c6d3b8 (light green)</p>
 
-      </section>
+
 
     </section>
 
 
     <!-- INTERACTIVE ELEMENTS SECTION // -->
     <section id="interactive_elements">
-
-      <!-- Default Button styling section -->
-      <section>
-
         <h2>Navigation Button</h2>
 
         <h3>CSS selector:</h3>
@@ -55,7 +57,6 @@
 
         <h3>Rendered element:</h3>
         <a class="button" href="#">Default Button</a>
-
       </section>
 
       <section class="element">
@@ -64,6 +65,8 @@
         <h4>CSS selector:</h4>
         <p>.intext-link</p>
         <p>.intext-link2</p>
+        <p>.intext-link3</p>
+
 
 
         <h4>Sample code:</h4>
@@ -76,7 +79,13 @@
 
         <div>
         <a href = "css/main.css" class ="intext-link2">  this is another in-text link </a>
-      </div>
+        </div>
+
+        <div>
+        <a href = "css/main.css" class ="intext-link3">  this is another in-text link </a>
+        </div>
+
+
 
       </section>
 
@@ -114,8 +123,6 @@
 
       </section>
 
-    </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
 
 
     <!-- TEXT ELEMENTS SECTION // -->
@@ -138,10 +145,13 @@
 
         <h4>Rendered element:</h4>
           <h2 class="site-h2">Heading 2 - Titles</h2>
-          <h3 class="site-h3">Heading 3 - Menu Title</h3>
-          <h4 class ="site-h4">Heading 4 - Product Titles</h4>
+          <h3 class="site-h3">Heading 3 - Subtitle</h3>
+          <h4 class ="site-h4">Heading 4 - Subtitle</h4>
           <h5 class ="site-h5">Heading 5 - Description Subtitles</h5>
       </section>
+
+      <section>
+
         <h2>Paragraphs</h2>
         <h4>CSS selector:</h4>
         <p>p</p>
@@ -156,29 +166,29 @@
       </section>
 
       <section>
-        <h2>Bulleted Lists</h2>
-      <h4>CSS selector:</h4>
-      <p> ul > li </p>
+            <h2>Bulleted Lists</h2>
+          <h4>CSS selector:</h4>
+          <p> ul > li </p>
 
-      <h4>Sample code:</h4>
-      <code>&lt;/ul&gt;</code>
-        <code>&lt;li&gt;&lt;/li&gt;</code>
-        <code>&lt;li&gt;&lt;/li&gt;</code>
-        <code>&lt;li&gt;&lt;/li&gt;</code>
-        <code>&lt;li&gt;&lt;/li&gt;</code>
-      <code>&lt;/ul&gt;</code>
+          <h4>Sample code:</h4>
+          <code>&lt;/ul&gt;</code>
+            <code>&lt;li&gt;&lt;/li&gt;</code>
+            <code>&lt;li&gt;&lt;/li&gt;</code>
+            <code>&lt;li&gt;&lt;/li&gt;</code>
+            <code>&lt;li&gt;&lt;/li&gt;</code>
+          <code>&lt;/ul&gt;</code>
 
-      <h4>Rendered element:</h4>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+          <h4>Rendered element:</h4>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
       </section>
 
       <section>
-        <h2>Numbered Lists</h2>
+      <h2>Numbered Lists</h2>
       <h4>CSS selector:</h4>
       <p> ol > li</p>
 
@@ -199,24 +209,31 @@
       </ol>
       </section>
 
-    </section>
     <!-- // TEXT ELEMENTS SECTION -->
 
 
 
     <!-- COMBINED ELEMENTS SECTION // -->
-    <section id="combined_elements">
+    <section id="citation">
 
-      <!-- <section>
-        <h2>Main Navigation</h2>
-      </section> -->
 
-      <!-- <section>
-        <h2>Product Listing</h2>
-      </section> -->
+      <h2>Citations</h2>
+
+      <h5 class="site-h5"> Fonts </h5>
+
+      <p>Cisterna,J. (2018). Recoleta.<span class="italic">Latinotype. </span>  Retrieved from <a href="https://www.dafont.com/recoleta.font" class="intext-link">https://www.dafont.com/recoleta.font </a> </p>
+
+      <p>Hanken Design Co. (2016). HK Grotesk.<span class="italic">Latinotype.</span> Retrieved from <a href="https://www.fontsquirrel.com/fonts/hk-grotesk" class="intext-link"> https://www.fontsquirrel.com/fonts/hk-grotesk </a> </p>
+
+
+      <h5 class="site-h5"> Coding Resources </h5>
+      <p>SFU SIAT. (2019). Code from IAT 339 class & lab. <span class="italic">SFU. </span> Retrieved from <a href="http://www.sfu.ca/siat.html" class="intext-link"> http://www.sfu.ca/siat.html </a> </p>
+      <p>w3school. (n,d.). The Worlds Largest Web Developer Site. <span class="italic">w3schools. </span>Retrieved from <a href="https://www.w3schools.com/default.asp" class="intext-link"> https://www.w3schools.com/default.asp </a> </p>
+      <p>CSS reference. (n,d.).Retrieved from <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference." class="intext-link"> https://developer.mozilla.org/en-US/docs/Web/CSS/Reference. </a> </p>
+      <p>A Complete Guide to Flexbox: CSS-Tricks. (n,d.).Retrieved from <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" class="intext-link"> https://css-tricks.com/snippets/css/a-guide-to-flexbox/ </a> </p>
 
     </section>
-    <!-- // COMBINED ELEMENTS SECTION -->
+
 
 
   </body>
