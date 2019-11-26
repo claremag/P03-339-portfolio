@@ -15,11 +15,19 @@
 
   } */
 
-  .wn {
+  .wn-j {
     position: fixed;
     right: 2.5rem;
     top:5rem;
   }
+
+  .wn-br {
+    position: fixed;
+    /* right: 2.5rem; */
+    top:5rem;
+  }
+
+
   /* .wn1 {
     margin-left:0;
   } */
@@ -58,10 +66,17 @@
 
 }
 
-  .wn {
+  .wn-j {
     margin-right: 2.5rem;
     position: fixed;
     right: 2.5rem;
+    top:20rem;
+  }
+
+  .wn-br {
+    margin-right: 2.5rem;
+    position: fixed;
+    /* right: 2.5rem; */
     top:20rem;
   }
 
@@ -81,24 +96,12 @@
 
 
 
-
-
-
-
 }
 
 
 @media(min-width: 1000px) {
   .work-head {
     margin-bottom: 10%;
-  }
-
-  .wn2 {
-    margin-right: 2.5rem;
-
-  }
-  .wn1 {
-    margin-left:2.5rem;
   }
 
   .a-c3 {

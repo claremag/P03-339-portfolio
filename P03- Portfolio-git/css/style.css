@@ -115,29 +115,27 @@ h1,h2,h3,h4 {
 }
 
 .site-h2 {
-  font-size: 2.3rem;
+  /* font-size: 2.3rem; */
+  text-transform: capitalize;
 }
 
 .site-h3 {
-  font-size: 1.6rem;
+  font-size: 1.35rem;
+  text-transform: capitalize;
 }
 
 .site-h4 {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
 }
 
 .site-h5 {
   font-family: 'HK Grotesk';
   font-weight: 'bold';
-  font-size: 1rem;
+  /* font-size: 1rem; */
+  font-size: 0.8rem;
+  letter-spacing: 1px;
   text-transform: uppercase;
-
 }
-
-/*
-h2 {
-  text-decoration: underline;
-} */
 
 section p {
   max-width: 700px;
@@ -150,9 +148,6 @@ section h4 , section h5 {
   line-height: 0.5em;
 }
 
-/* .site-h5 {
-  text-decoration: underline;
-} */
 
 .color1, .color2, .color3, .color4 , .color5{
   font-size: 1em;
@@ -227,6 +222,18 @@ bottom: 2.5rem;
   bottom: 2.5rem;
 }
 
+/* .m-item5 {
+position: fixed;
+left: 9rem;
+bottom: 2.5rem;
+}
+
+.m-item6 {
+position: fixed;
+left: 17rem;
+bottom: 2.5rem;
+} */
+
 .cm {
   background-color: transparent;
   color: black;
@@ -259,7 +266,6 @@ bottom: 2.5rem;
 
 .hkl-u {
   text-transform: uppercase;
-  font-size: 0.9rem;
 }
 .h-con {
   justify-content: center;
@@ -276,18 +282,22 @@ bottom: 2.5rem;
   display: flex;
   align-items: baseline;
 }
-/* .hd {
-  flex: 1;
-} */
+
+.h-desc p {
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
 
 .hd1 {
   text-align: left;
+  flex: 1;
 
 }
 .hd2 {
   text-align: right;
   line-height: 1em;
   flex-grow: 1;
+  flex: 2;
 }
 
 .hd p {
@@ -303,34 +313,35 @@ bottom: 2.5rem;
 
 /* SPECIFIC WORK PAGES STYLING */
 
-/* work navigation */
-/* .work-nav{
-  display: flex; */
-  /* z-index: -16; */
-/* } */
+/* NEXT PROJ NAVIGATION */
 
 .wn-title {
   margin: 0;
   font-size: 0.5rem;
   text-align: center;
 
-  /* font-weight: bold; */
 }
 
 .wn {
-  /* font-family: 'Recoleta'; */
+
   text-transform: uppercase;
   font-weight: 400;
-
   text-align: center;
-
 }
 
 .wn-b {
   max-width: 50px;
   line-height: 11px;
-
 }
+
+.s-h2-o {
+  -webkit-text-stroke: 0.75px black;
+  color: transparent;
+}
+
+/* END OF NEXT PROJ NAVIGATION */
+
+
 
 .banner-img {
   max-width: 100%;
@@ -351,10 +362,6 @@ bottom: 2.5rem;
   text-transform: uppercase;
 }
 
- /* {
-  text-transform: uppercase;
-} */
-
 
 .a-row {
   display: flex;
@@ -366,7 +373,7 @@ bottom: 2.5rem;
 }
 
 .a-row1 p ,  .a-row2 p , .a-row3 p {
-  margin-top: 0;
+  margin-top: 0.20rem;
 }
 .a-row p {
   font-size: 0.85em;
@@ -374,13 +381,11 @@ bottom: 2.5rem;
 
 .a-row h4 {
   text-transform: lowercase;
-  /* word-break: break-word; */
 }
 
 .a-row h5 {
   margin:0;
 }
-
 
 .a-left {
   flex:1;
@@ -393,14 +398,15 @@ bottom: 2.5rem;
   max-width: 100%;
 }
 
-.a-b11 {
-  align-items: flex-start
+.wc-sec-a p {
+  font-size: 0.8rem;
+  letter-spacing: 0.25px;
 }
 
-.joc-img {
-  max-width: 100%;
+.a-left h4 {
+  width: 120px;
+  line-height: 1.3rem;
 }
-
 
 
 
@@ -457,14 +463,7 @@ bottom: 2.5rem;
   align-items: unset;
 }
 
-/* .a-c3 .intext-link {
-  color: #69705e;
-} */
 
-
-/* .about-footer {
-  padding-top: 200px;
-} */
 
 
 
